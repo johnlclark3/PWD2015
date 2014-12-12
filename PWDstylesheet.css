@@ -1,0 +1,46 @@
+BODY, TD {
+    font-size:75%;
+    font-family:verdana,arial,'sans serif';
+    background-image:url('gradient.png');
+    background-repeat:repeat-x;
+    background-color:#FFFFF0;
+    color:#000080;
+    margin:70px;
+
+}
+
+
+
+table.datatable { 
+    background: #fcfcfc; 
+}  
+
+table.datatable td { 
+    padding: 0px 8px 0px 8px; 
+    margin: 0 8px 0 8px; 
+    background: #ededed;
+    font-size: 100%; 
+}
+
+       
+
+table.datatable * th { 
+    background: #ffffcc; 
+    text-align: left; 
+    font-size:100%; 
+}              
+
+h1 {font-size:200%;}
+h2 {font-size:140%;}
+h3 {font-size:110%;}
+
+A {
+}
+
+A:Hover {
+    color:red;
+}
+
+A:Link {
+    color:#000080;
+}
