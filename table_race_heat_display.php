@@ -736,7 +736,7 @@
                             break;
 
                         case 'Place_1';
-                            $sql = "SELECT Last_name, First_name from racer where idRacer=".$row[f7];
+                            $sql = "SELECT Last_name, First_name from racer where idRacer=".$row['f7'];
                             $result = $dbconn->db_get_all_rows($sql);
                             if ($result) {
                                 foreach($result as $key => $value) 
@@ -748,7 +748,7 @@
                             break;
 
                         case 'Place_2';
-                            $sql = "SELECT Last_name, First_name from racer where idRacer=".$row[f8];
+                            $sql = "SELECT Last_name, First_name from racer where idRacer=".$row['f8'];
                             $result = $dbconn->db_get_all_rows($sql);
                             if ($result) {
                                 foreach($result as $key => $value) 
@@ -760,7 +760,7 @@
                             break;
 
                         case 'Place_3';
-                            $sql = "SELECT Last_name, First_name from racer where idRacer=".$row[f9];
+                            $sql = "SELECT Last_name, First_name from racer where idRacer=".$row['f9'];
                             $result = $dbconn->db_get_all_rows($sql);
                             if ($result) {
                                 foreach($result as $key => $value) 
@@ -772,7 +772,7 @@
                             break;
 
                         case 'Place_4';
-                            $sql = "SELECT Last_name, First_name from racer where idRacer=".$row[f10];
+                            $sql = "SELECT Last_name, First_name from racer where idRacer=".$row['f10'];
                             $result = $dbconn->db_get_all_rows($sql);
                             if ($result) {
                                 foreach($result as $key => $value) 
