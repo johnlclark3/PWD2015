@@ -12,7 +12,7 @@ $config['admin_id'] = "root";
 $config['admin_password'] = "pwd2015";
 $config['dictionary'] = 'words';
 $config['autoRefreshON'] = 'YES';                        // Autorefresh of race results (YES = do auto-refresh)
-$config['autoRefreshDuration'] = 10;                    // Intervals between autorefreshes
+$config['autoRefreshDuration'] = 5;                    // Intervals between autorefreshes
 $config['autoRefreshVideoDuration'] = 15;               // Interval between race video autorefreshes
 $config['autoRefreshHeatDisplayCount'] = 3;             // Number of times to heat results display in auto-refresh routine
 $config['autoRefreshRacerPointsCount'] = 2;             // Number of times to show racer points display in auto-refresh routine
