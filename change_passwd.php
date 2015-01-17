@@ -1,4 +1,5 @@
 <?php
+/* test */
   
 ini_set("include_path", "./includes");  
  
